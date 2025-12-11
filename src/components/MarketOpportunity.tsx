@@ -27,7 +27,7 @@ const stats = [
 const timeline = [
   { year: '2024', event: 'GS1 2D pilots in 45+ countries', active: true },
   { year: '2025', event: 'Early adopter brands migrate', active: true },
-  { year: '2026', event: 'Retailer mandates accelerate', active: false },
+  { year: '2026', event: 'Retailer mandates accelerate', active: true },
   { year: '2027', event: 'GS1 Sunrise deadline', active: false },
 ];
 
@@ -86,7 +86,7 @@ export default function MarketOpportunity() {
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute top-5 left-0 right-0 h-1 bg-slate-700 hidden sm:block" />
-            <div className="absolute top-5 left-0 w-1/2 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 hidden sm:block" />
+            <div className="absolute top-5 left-0 w-3/4 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 hidden sm:block" />
 
             <div className="grid sm:grid-cols-4 gap-6">
               {timeline.map((item, index) => (
