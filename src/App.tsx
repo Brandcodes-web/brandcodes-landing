@@ -28,7 +28,7 @@ function App() {
         <Integrations />
         <Analytics />
         <ProductPreview />
-        <Pricing />
+        {/* <Pricing /> */}
         <CTA />
       </main>
       <Footer />

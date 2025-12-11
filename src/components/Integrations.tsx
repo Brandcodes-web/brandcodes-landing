@@ -135,7 +135,7 @@ export default function Integrations() {
           </div>
         </motion.div>
 
-        {/* Integration logos grid */}
+        {/* Integration logos grid
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {integrations.map((integration, index) => (
             <motion.div
@@ -161,7 +161,7 @@ export default function Integrations() {
               <p className="text-xs text-gray-500 mt-1">{integration.description}</p>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
