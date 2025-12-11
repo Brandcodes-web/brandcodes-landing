@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Send, Loader2 } from 'lucide-react';
+import { Send, Loader2 } from 'lucide-react';
 
 export default function CTA() {
   const [formData, setFormData] = useState({
@@ -66,7 +66,7 @@ export default function CTA() {
               experiences. Get started for free or request a personalized demo.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            {/* <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
                 href="http://localhost:3000/"
                 className="inline-flex items-center justify-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-gray-100 shadow-lg transition group"
@@ -74,7 +74,7 @@ export default function CTA() {
                 Get Started Free
                 <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
-            </div>
+            </div> */}
 
             <div className="flex items-center space-x-6 text-indigo-200 text-sm">
               <div className="flex items-center">

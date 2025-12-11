@@ -102,13 +102,13 @@ export default function HowItWorks() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <a
+          {/* <a
             href="http://localhost:3000/"
             className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 shadow-lg shadow-indigo-500/30 transition group"
           >
             Start in 60 Seconds
             <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </a> */}
         </motion.div>
       </div>
     </section>

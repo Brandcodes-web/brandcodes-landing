@@ -42,16 +42,16 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             <a
               href="#contact"
-              className="px-4 py-2 text-gray-700 font-medium hover:bg-gray-100 rounded-lg transition"
+              className="px-4 py-2 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 shadow-sm transition"
             >
               Book Demo
             </a>
-            <a
+            {/* <a
               href="http://localhost:3000/"
               className="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 shadow-sm transition"
             >
               Get Started
-            </a>
+            </a> */}
           </div>
 
           {/* Mobile menu button */}
@@ -81,16 +81,16 @@ export default function Navbar() {
             <div className="pt-4 space-y-3 border-t border-gray-200">
               <a
                 href="#contact"
-                className="block px-4 py-2 text-center text-gray-700 font-medium hover:bg-gray-100 rounded-lg transition"
+                className="block px-4 py-2 text-center bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 shadow-sm transition"
               >
                 Book Demo
               </a>
-              <a
+              {/* <a
                 href="http://localhost:3000/"
                 className="block px-4 py-2 text-center bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 shadow-sm transition"
               >
                 Get Started
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
