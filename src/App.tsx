@@ -9,7 +9,7 @@ import UseCases from './components/UseCases';
 import Integrations from './components/Integrations';
 import Analytics from './components/Analytics';
 import ProductPreview from './components/ProductPreview';
-import Pricing from './components/Pricing';
+// import Pricing from './components/Pricing';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
