@@ -110,7 +110,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.7 }}
-              className="absolute -right-8 bottom-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
+              className="absolute -right-0 bottom-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
             >
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
