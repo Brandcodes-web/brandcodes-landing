@@ -74,17 +74,17 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative"
+            className="relative lg:ml-12"
           >
             <div className="relative">
               {/* Glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl blur-2xl opacity-20 scale-105" />
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl blur-2xl opacity-20 scale-125" />
 
               {/* Main image */}
               <img
                 src="/hero-mockup-image.png"
                 alt="BrandCodes - Product package with QR code scanning to mobile phone showing AI product page"
-                className="relative rounded-2xl shadow-2xl w-full"
+                className="relative rounded-2xl shadow-2xl w-full scale-125"
               />
             </div>
 
@@ -93,7 +93,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="absolute -left-4 top-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
+              className="absolute -left-8 top-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
             >
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
@@ -101,7 +101,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900">Auto-generated</p>
-                  <p className="text-xs text-gray-500">product-specifc pages</p>
+                  <p className="text-xs text-gray-500">product-specific pages</p>
                 </div>
               </div>
             </motion.div>
@@ -110,7 +110,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.7 }}
-              className="absolute -right-4 bottom-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
+              className="absolute -right-8 bottom-1/2 bg-white rounded-lg shadow-xl p-4 hidden lg:block"
             >
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
