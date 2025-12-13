@@ -5,7 +5,7 @@ const team = [
   {
     name: 'Jae',
     role: 'Co-Founder',
-    education: 'Y3 CS Student at NUS',
+    education: 'Computer Science Undergraduate at NUS',
     image: '/team/Jaehyeok-Choi Profile Photo.jpg',
     links: {
       website: 'https://jaechoi.vercel.app/',
@@ -16,7 +16,7 @@ const team = [
   {
     name: 'Limhur',
     role: 'Co-Founder',
-    education: 'Y2 CS Student at NUS',
+    education: 'Computer Science Undergraduate at NUS',
     image: '/team/limhur.jpg',
     links: {
       github: 'https://github.com/lhurr',

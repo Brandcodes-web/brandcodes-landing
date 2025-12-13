@@ -24,11 +24,11 @@ export default function Footer() {
       // { name: 'API Reference', href: '#', isRoute: false },
       // { name: 'GS1 Compliance', href: '#', isRoute: false },
     ],
-    // Legal: [
-    //   { name: 'Privacy Policy', href: '#', isRoute: false },
-    //   { name: 'Terms of Service', href: '#', isRoute: false },
-    //   { name: 'Cookie Policy', href: '#', isRoute: false },
-    // ],
+    Legal: [
+      { name: 'Privacy Policy', href: '/privacy.html', isRoute: false },
+      // { name: 'Terms of Service', href: '#', isRoute: false },
+      // { name: 'Cookie Policy', href: '#', isRoute: false },
+    ],
   };
 
   return (
