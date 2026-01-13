@@ -36,11 +36,11 @@ export default function CTA() {
       if (response.ok) {
         setSubmitted(true);
       } else {
-        alert('Something went wrong. Please try again or email us directly at 77jack0105@gmail.com');
+        alert('Something went wrong. Please try again or email us directly at info@brandcodes.io');
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      alert('Something went wrong. Please try again or email us directly at 77jack0105@gmail.com');
+      alert('Something went wrong. Please try again or email us directly at info@brandcodes.io');
     } finally {
       setIsSubmitting(false);
     }

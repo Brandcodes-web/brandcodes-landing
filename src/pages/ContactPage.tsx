@@ -33,11 +33,11 @@ export default function ContactPage() {
       if (response.ok) {
         setSubmitted(true);
       } else {
-        alert('Something went wrong. Please try again or email us directly at 77jack0105@gmail.com');
+        alert('Something went wrong. Please try again or email us directly at info@brandcodes.io');
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      alert('Something went wrong. Please try again or email us directly at 77jack0105@gmail.com');
+      alert('Something went wrong. Please try again or email us directly at info@brandcodes.io');
     } finally {
       setIsSubmitting(false);
     }
@@ -86,7 +86,7 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6 text-brand-500" />
               </div>
               <h3 className="font-semibold text-navy-900 mb-1">Email Us</h3>
-              <p className="text-cool-600 text-sm">77jack0105@gmail.com</p>
+              <p className="text-cool-600 text-sm">info@brandcodes.io</p>
             </motion.div>
 
             <motion.div
