@@ -71,9 +71,8 @@ export default function Analytics() {
                   <div className="flex items-center justify-between mb-3">
                     <metric.icon className="w-5 h-5 text-brand-400" />
                     <span
-                      className={`text-xs font-medium px-2 py-1 rounded-full ${
-                        metric.positive ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'
-                      }`}
+                      className={`text-xs font-medium px-2 py-1 rounded-full ${metric.positive ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'
+                        }`}
                     >
                       {metric.change}
                     </span>
@@ -92,7 +91,7 @@ export default function Analytics() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
-            className="relative"
+            className="relative lg:-mr-84"
           >
             <div className="relative">
               {/* Glow effect */}
@@ -107,7 +106,7 @@ export default function Analytics() {
               />
 
               {/* Overlay badge */}
-              <div className="absolute -bottom-4 -left-4 bg-white rounded-lg shadow-xl p-4">
+              <div className="absolute top-3/5 -translate-y-1/2 -left-4 bg-white rounded-lg shadow-xl p-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center">
                     <TrendingDown className="w-5 h-5 text-brand-500" />
